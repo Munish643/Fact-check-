@@ -8,7 +8,7 @@ import streamlit as st
 from claimlens_core import extract_claims, extract_pdf_text, llama_config_from_env, verify_claim
 
 
-APP_URL = "https://my-assignment.streamlit.app/"
+APP_URL = "https://munish.streamlit.app/"
 
 
 def secret_value(name: str, default: str = "") -> str:

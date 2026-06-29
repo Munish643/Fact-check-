@@ -280,7 +280,7 @@ def call_llama_json(llama_config: dict[str, str], system: str, user: str) -> dic
     headers = {
         "Authorization": f"Bearer {llama_config['api_key']}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://my-assignment.streamlit.app/",
+        "HTTP-Referer": "https://munish.streamlit.app/",
         "X-Title": "ClaimLens",
     }
     body = {

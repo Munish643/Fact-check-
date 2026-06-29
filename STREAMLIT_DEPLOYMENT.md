@@ -1,6 +1,6 @@
 # ClaimLens Streamlit Deployment
 
-Target URL: https://my-assignment.streamlit.app/
+Target URL: https://munish.streamlit.app/
 
 To run this app on Streamlit Cloud, the connected repository should use:
 

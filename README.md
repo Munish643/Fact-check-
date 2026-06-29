@@ -4,7 +4,7 @@ ClaimLens is a Streamlit fact-checking web app for uploaded PDFs. It extracts me
 
 Target deployment URL:
 
-https://my-assignment.streamlit.app/
+https://munish.streamlit.app/
 
 ## Streamlit Cloud Setup
 
