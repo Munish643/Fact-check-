@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets
+.env
+.streamlit/secrets.toml
+
+# Node / generated app artifacts
+node_modules/
+.next/
+dist/
+build/
+.wrangler/
+.npm-cache/
+*.tsbuildinfo
+
+# Local Codex/Sites scratch
+.agents/
+.codex/
+work/
+*.tar.gz
+
+# Presentation inspection scratch
+*.inspect.ndjson
+outputs/fact-check-agent-project.pptx
