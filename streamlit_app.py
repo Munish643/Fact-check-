@@ -13,9 +13,10 @@ APP_URL = "https://my-assignment.streamlit.app/"
 
 def secret_value(name: str, default: str = "") -> str:
     try:
-        return str(st.secrets.get(name, os.getenv(name, default)))
+        value = st.secrets.get(name, os.getenv(name, default))
     except Exception:
-        return os.getenv(name, default)
+        value = os.getenv(name, default)
+    return "" if value is None else str(value)
 
 
 def get_llama_config() -> dict[str, str]:
@@ -27,7 +28,7 @@ def get_llama_config() -> dict[str, str]:
     }
 
 
-st.set_page_config(page_title="ClaimLens", page_icon="CL", layout="wide")
+st.set_page_config(page_title="ClaimLens", page_icon=":mag:", layout="wide")
 
 st.markdown(
     """
